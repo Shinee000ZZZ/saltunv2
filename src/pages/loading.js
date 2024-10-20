@@ -60,12 +60,12 @@ const Loading = ({ loading }) => {
                     exit={{ opacity: 0 }}
                 >
                     <motion.span variants={firstName} initial='initial' animate='animate' className='first'>
-                        <motion.span variants={letter}>K</motion.span>
-                        <motion.span variants={letter}>a</motion.span>
-                        <motion.span variants={letter}>i</motion.span>
                         <motion.span variants={letter}>s</motion.span>
                         <motion.span variants={letter}>a</motion.span>
-                        <motion.span variants={letter}>m</motion.span>
+                        <motion.span variants={letter}>l</motion.span>
+                        <motion.span variants={letter}>t</motion.span>
+                        <motion.span variants={letter}>u</motion.span>
+                        <motion.span variants={letter}>n</motion.span>
                     </motion.span>
                     {/* <motion.span className="line" variants={line} initial='initial' animate='animate'></motion.span> */}
                     <motion.span variants={lastName} initial='initial' animate='animate' className='last'>

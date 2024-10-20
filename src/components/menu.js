@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import resume from '../images/HrithikSinhaCV.pdf'
+import resume from '../images/CV_ATS_SultanSM.pdf'
 
 const transition = { duration: 2, ease: [.6, .01, -.05, .9] }
 

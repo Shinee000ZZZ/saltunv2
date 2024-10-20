@@ -7,7 +7,7 @@ import {
 } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { ReactComponent as Arrow1 } from '../images/Arrow 1.svg'
-import resume from '../images/HrithikSinhaCV.pdf'
+import resume from '../images/CV_ATS_SultanSM.pdf'
 
 
 const transition = { duration: 1.5, ease: [.6, -.05, .01, .9] }
@@ -39,10 +39,10 @@ const About = ({ onCursor }) => {
         <>
             <section className="about maxwidth">
                 <div id="about" className="about__main">
-                    <motion.div className="me" alt="kaisam" style={{ y: y1 }} />
+                    <motion.div className="me" alt="saltun" style={{ y: y1 }} />
                     <div className="text">
-                        <h1>Passionate</h1>
-                        <h1 className="text__second">Designer</h1>
+                        <h1>SULTAN</h1>
+                        <h1 className="text__second">Fullstack Dev</h1>
                         <motion.div className="text__inner"
                             ref={ref}
                             animate={animation}
@@ -59,19 +59,14 @@ const About = ({ onCursor }) => {
                                 }
                             }}
                         >
-                            <p>My name is Hrithik Sinha (AKA Kaisam). I am a UX Designer based in India.
-                                Aesthetic looking websites and apps with good user experience is what I
-                                yearn to design and develop. I have always been passionate about visual designs
-                                which is why I love designing. I started off as a Frontend Developer but changed
-                                to UX Designer when I found out I spent most of my time trying to make the website
-                                look better and eye pleasing during the development phase.
+                            <p>My name is Sultan Syaeful Millah (AKA Saltun). I am a Fullstack Web Developer.
+                                I am currently studying at SMKN 1 Banjar, West Java, Indonesia.
+                                I am recently intern at Inovindo Digital Media as a Fullstack Developer.
                             </p>
 
                             <p className="interest">
-                                Apart from designing websites
-                                and apps, I spend my time watching TV Series on OTT Platforms.
-                                I also love watching football especially my favorite club
-                                i.e Real Madrid. Sometimes I play games on my pc or mobile as well.
+                                Apart from building websites
+                                and designing, I spend my time watching Anime and Listening to Music.
                             </p>
 
                             <button className="btn" onMouseLeave={onCursor} onMouseEnter={() => onCursor("hovered")}>
@@ -101,12 +96,21 @@ const About = ({ onCursor }) => {
                     }}
                     className="tech-stack container">
                     <h3>tech - stack</h3>
-                    <ul>
-                        <li>Figma</li>
-                        <li>Photoshop</li>
+                    <ul style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}>
                         <li>HTML</li>
                         <li>CSS</li>
-                        <li>SASS</li>
+                        <li>JS</li>
+                        <li>Tailwind</li>
+                        <li>Bootstrap</li>
+                        <li>ReactJs</li>
+                        <li>PHP</li>
+                        <li>Laravel</li>
+                        <li>Figma</li>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>MySQL</li>
+                        <li>Nodejs</li>
+                        
                     </ul>
                 </motion.div>
             </section>

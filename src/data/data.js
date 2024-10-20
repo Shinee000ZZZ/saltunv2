@@ -1,64 +1,63 @@
 import divertical from '../images/Divertical.webp'
 import divertical2 from '../images/Divertical2.webp'
-import foodDeliveryApp from '../images/FoodDeliveryApp.webp'
-import foodDeliveryApp2 from '../images/FoodDeliveryApp2.webp'
-import amazon from '../images/Amazon.webp'
-import amazon2 from '../images/Amazon2.webp'
 import efa from '../images/EFA.webp'
 import efa2 from '../images/EFA2.webp'
-import caffe from '../images/Caffe.webp'
-import caffe2 from '../images/Caffe2.webp'
-import pawdopt from '../images/Pawdopt.webp'
-import pawdopt2 from '../images/Pawdopt2.webp'
+import film from '../images/LISTFILLM.png'
+import film2 from '../images/film2.png'
 import one from '../images/1.jpg'
 import two from '../images/2.jpg'
 import three from '../images/3.jpeg'
 import four from '../images/4.jpg'
+import bkg from '../images/BKG.png'
+import trvl from '../images/Thumbnail - Travel Agency by Shineeee.jpg'
+import trvl2 from '../images/TAMNEL.png'
+import caper from '../images/caper.png'
+import caper2 from '../images/caper2.png'
 
 export const projects = [
     {
         id: 1,
-        img: pawdopt,
-        title: 'Pawdopt App',
-        img2: pawdopt2,
+        img: bkg,
+        title: 'Rock Paper Scissors Mini Game',
+        img2: bkg,
         distort: one,
-        type: 'UX UI Design',
-        link: 'https://www.behance.net/gallery/149122539/Pawdopt-UX-Case-Study'
+        type: 'Web',
+        link: 'https://bkg.vercel.app'
     },
     {
         id: 2,
-        img: amazon,
-        title: 'Amazon App Redesign',
-        img2: amazon2,
+        img: trvl,
+        title: 'Travel Agency Landing Page and Mobile App',
+        img2: trvl2,
         distort: two,
-        type: 'UX UI Design',
-        link: 'https://www.behance.net/gallery/146011057/Amazon-App-Redesign'
+        type: 'UI Design',
+        link: 'https://www.figma.com/@sultansyaefulmi'
     },
     {
         id: 3,
-        img: foodDeliveryApp,
-        title: 'Food Delivery',
-        img2: foodDeliveryApp2,
+        img: film,
+        title: 'List Film API',
+        img2: film2,
         distort: three,
-        type: 'UX UI Design',
-        link: 'https://www.behance.net/gallery/134438563/Food-Delivery-App-Design'
+        type: 'Web',
+        link: 'https://moviesaltun.vercel.app'
     },
     {
         id: 4,
-        img: divertical,
-        title: 'Divertical Website',
-        img2: divertical2,
+        img: caper,
+        title: 'TRavelling Documentation Web App',
+        img2: caper2,
         distort: four,
-        type: 'UX UI Design',
-        link: 'https://www.behance.net/gallery/144556863/UX-UI-Design-Divertical'
+        type: 'Web',
+        link: 'https://github.com/Shinee000ZZZ/CaPer'
     },
-    {
-        id: 5,
-        img: efa,
-        title: 'Football Association',
-        img2: efa2,
-        distort: one,
-        type: 'Web Design',
-        link: 'https://www.behance.net/gallery/120495377/European-Football-Association-Webdesign-Concept'
-    }
+    // {
+    //     id: 5,
+    //     img: efa,
+    //     title: 'Football Association',
+    //     img2: efa2,
+    //     distort: one,
+    //     type: 'Web Design',
+    //     link: 'https://www.behance.net/gallery/120495377/European-Football-Association-Webdesign-Concept'
+    // }
 ]

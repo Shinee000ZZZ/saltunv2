@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { motion, useTransform, useViewportScroll } from "framer-motion"
 import { ReactComponent as Down } from '../images/Next.svg'
-import resume from '../images/HrithikSinhaCV.pdf'
+import resume from '../images/CV_ATS_SultanSM.pdf'
 
 const transition = { duration: 1.4, ease: 'easeInOut', delay: 1.5 }
 
@@ -25,7 +25,7 @@ const Hero = ({ onCursor, setToggleMenu }) => {
                     <motion.nav id="hero" className="nav"
                         initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0, transition: { delay: 2.2, ...transition } }}>
 
-                        <h5>Kaisam</h5>
+                        <h5>SULTAN</h5>
                         <ul>
                             <li><a onMouseLeave={onCursor} onMouseEnter={() => onCursor("hovered")} href="#about">about</a></li>
                             <li><a onMouseLeave={onCursor} onMouseEnter={() => onCursor("hovered")} href="#project">projects</a></li>
@@ -46,11 +46,11 @@ const Hero = ({ onCursor, setToggleMenu }) => {
                         <motion.h1
                             className="first" initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1, transition: transition }}
                         >
-                            Hrithik Sinha
+                            Sultan S.M.
                         </motion.h1>
                         <motion.h1
                             className="second" initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1, transition: transition }}
-                        >UX designer</motion.h1>
+                        >Fullstack dev</motion.h1>
                     </div>
 
                     <motion.div className="banner__lower"
@@ -59,27 +59,20 @@ const Hero = ({ onCursor, setToggleMenu }) => {
                         <Down className="scroll" />
                         <div className="kaisam">
                             <motion.div style={{ translateX: x }}
-                                initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0, transition: { delay: 2.2, ...transition } }}
+                                initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0, transition: { delay: 2.2, ...transition } }}
                             >
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
+                                <span>FULLSTACK</span>
+                                <span>DEVELOPER</span>
+                                <span>FRONTEND</span>
+                                <span>DEVELOPER</span>
+                                <span>BACKEND</span>
+                                <span>DEVELOPER</span>
+                                <span>UI</span>
+                                <span>DESIGNER</span>
+                                <span>UX</span>
+                                <span>DESIGNER</span>
+                                <span>FULLSTACK</span>
+                                <span>DEVELOPER</span>
                             </motion.div>
                         </div>
 
