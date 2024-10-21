@@ -45,7 +45,7 @@ export const projects = [
     {
         id: 4,
         img: caper,
-        title: 'Tpavelling Documentation Web App',
+        title: 'Travelling Documentation Web App',
         img2: caper2,
         distort: four,
         type: 'Web',
