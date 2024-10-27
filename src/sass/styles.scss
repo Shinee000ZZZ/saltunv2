@@ -17,6 +17,16 @@ html {
   font-size: 10px;
   scroll-behavior: smooth;
 
+  ::-moz-selection{
+    background: $secondary;
+    color: red;
+  }
+
+  ::selection {
+    background: $secondary;
+    color: red;
+  }
+
   @media (max-width: 1800px) {
     font-size: 8.5px;
   }
